@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BC7274062C1FA44EC6FF35C /* libPods-Login_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6768693CB0E0D8DDEB68D6A /* libPods-Login_Demo.a */; };
 		A629B2651D77F7DC00086810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B2641D77F7DC00086810 /* main.m */; };
 		A629B2681D77F7DC00086810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B2671D77F7DC00086810 /* AppDelegate.m */; };
 		A629B26B1D77F7DC00086810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B26A1D77F7DC00086810 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		A629B2731D77F7DC00086810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A629B2711D77F7DC00086810 /* LaunchScreen.storyboard */; };
 		A629B27E1D77F7DC00086810 /* Login_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B27D1D77F7DC00086810 /* Login_DemoTests.m */; };
 		A629B2891D77F7DC00086810 /* Login_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B2881D77F7DC00086810 /* Login_DemoUITests.m */; };
+		A629B2981D77FF3A00086810 /* postman.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B2971D77FF3A00086810 /* postman.m */; };
+		A629B29B1D77FF4800086810 /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A629B29A1D77FF4800086810 /* constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		918A8E8F802159696E8340C1 /* Pods-Login_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login_Demo/Pods-Login_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		A629B2601D77F7DC00086810 /* Login_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A629B2641D77F7DC00086810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A629B2661D77F7DC00086810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		A629B2841D77F7DC00086810 /* Login_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Login_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A629B2881D77F7DC00086810 /* Login_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login_DemoUITests.m; sourceTree = "<group>"; };
 		A629B28A1D77F7DC00086810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A629B2961D77FF3A00086810 /* postman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postman.h; sourceTree = "<group>"; };
+		A629B2971D77FF3A00086810 /* postman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = postman.m; sourceTree = "<group>"; };
+		A629B2991D77FF4800086810 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		A629B29A1D77FF4800086810 /* constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
+		A7CC6A68E4E698137EAD7DD5 /* Pods-Login_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login_Demo/Pods-Login_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		F6768693CB0E0D8DDEB68D6A /* libPods-Login_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Login_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC7274062C1FA44EC6FF35C /* libPods-Login_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B926CD6D03DDFA3E01C09A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6768693CB0E0D8DDEB68D6A /* libPods-Login_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38E4E4BBDF43407123EF1404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC6A68E4E698137EAD7DD5 /* Pods-Login_Demo.debug.xcconfig */,
+				918A8E8F802159696E8340C1 /* Pods-Login_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A629B2571D77F7DC00086810 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				A629B27C1D77F7DC00086810 /* Login_DemoTests */,
 				A629B2871D77F7DC00086810 /* Login_DemoUITests */,
 				A629B2611D77F7DC00086810 /* Products */,
+				38E4E4BBDF43407123EF1404 /* Pods */,
+				11B926CD6D03DDFA3E01C09A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +135,10 @@
 				A629B2671D77F7DC00086810 /* AppDelegate.m */,
 				A629B2691D77F7DC00086810 /* ViewController.h */,
 				A629B26A1D77F7DC00086810 /* ViewController.m */,
+				A629B2961D77FF3A00086810 /* postman.h */,
+				A629B2971D77FF3A00086810 /* postman.m */,
+				A629B2991D77FF4800086810 /* constants.h */,
+				A629B29A1D77FF4800086810 /* constants.m */,
 				A629B26C1D77F7DC00086810 /* Main.storyboard */,
 				A629B26F1D77F7DC00086810 /* Assets.xcassets */,
 				A629B2711D77F7DC00086810 /* LaunchScreen.storyboard */,
@@ -147,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A629B28D1D77F7DC00086810 /* Build configuration list for PBXNativeTarget "Login_Demo" */;
 			buildPhases = (
+				ED829C2310654499A2C452BF /* [CP] Check Pods Manifest.lock */,
 				A629B25C1D77F7DC00086810 /* Sources */,
 				A629B25D1D77F7DC00086810 /* Frameworks */,
 				A629B25E1D77F7DC00086810 /* Resources */,
+				8FE7D453BA5CE9BD3EF23382 /* [CP] Embed Pods Frameworks */,
+				BE3DA1EAA44F242A6DFF7C22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +244,7 @@
 				TargetAttributes = {
 					A629B25F1D77F7DC00086810 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QGMN7468R5;
 					};
 					A629B2781D77F7DC00086810 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -265,13 +303,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8FE7D453BA5CE9BD3EF23382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login_Demo/Pods-Login_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE3DA1EAA44F242A6DFF7C22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login_Demo/Pods-Login_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED829C2310654499A2C452BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A629B25C1D77F7DC00086810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A629B29B1D77FF4800086810 /* constants.m in Sources */,
 				A629B26B1D77F7DC00086810 /* ViewController.m in Sources */,
 				A629B2681D77F7DC00086810 /* AppDelegate.m in Sources */,
+				A629B2981D77FF3A00086810 /* postman.m in Sources */,
 				A629B2651D77F7DC00086810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,9 +501,12 @@
 		};
 		A629B28E1D77F7DC00086810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CC6A68E4E698137EAD7DD5 /* Pods-Login_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = Login_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Srinivas.com.Login-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +515,12 @@
 		};
 		A629B28F1D77F7DC00086810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918A8E8F802159696E8340C1 /* Pods-Login_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = Login_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Srinivas.com.Login-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +592,7 @@
 				A629B28F1D77F7DC00086810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A629B2901D77F7DC00086810 /* Build configuration list for PBXNativeTarget "Login_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +601,7 @@
 				A629B2921D77F7DC00086810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A629B2931D77F7DC00086810 /* Build configuration list for PBXNativeTarget "Login_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +610,7 @@
 				A629B2951D77F7DC00086810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
